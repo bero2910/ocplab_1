@@ -1,0 +1,15 @@
+Task1:
+
+Access OpeShift environmet using CLI 
+
+Task 2: 
+Create new project called dev-<useranme>
+
+Task 3: 
+List all projects available to you 
+
+Task 4: 
+Save project list to file 
+
+Task 5: 
+Find pod named test curl in all available projects 

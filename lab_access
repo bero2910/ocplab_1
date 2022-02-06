@@ -1,0 +1,3 @@
+Openshift Console: https://console-openshift-console.apps.cluster-99a5.99a5.sandbox1661.opentlc.com
+Openshift API for command line 'oc' client: https://api.cluster-99a5.99a5.sandbox1661.opentlc.com:6443
+Download oc client from http://d3s3zqyaz8cp2d.cloudfront.net/pub/openshift-v4/clients/ocp/stable-4.8/openshift-client-linux.tar.gz

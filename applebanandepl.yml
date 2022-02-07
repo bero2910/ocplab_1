@@ -73,7 +73,7 @@ spec:
     targetPort: 5678
   tls:
     insecureEdgeTerminationPolicy: Redirect
-    termination: reencrypt
+    termination: edge
   to:
     kind: ""
     name: banana-service
@@ -88,7 +88,7 @@ spec:
     targetPort: 5678
   tls:
     insecureEdgeTerminationPolicy: Redirect
-    termination: reencrypt
+    termination: edge
   to:
     kind: ""
     name: apple-service

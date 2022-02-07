@@ -1,0 +1,3 @@
+#Creating a pod and executing commands inside a pod 
+
+oc apply -f 

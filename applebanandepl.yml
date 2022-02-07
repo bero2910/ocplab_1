@@ -63,3 +63,27 @@ spec:
     app: banana
   ports:
     - port: 5678 # Default port for image
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: banana-service
+spec:
+  port:
+    targetPort: 5678
+  to:
+    kind: ""
+    name: banana-service
+    weight: null
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: apple-service
+spec:
+  port:
+    targetPort: 5678
+  to:
+    kind: ""
+    name: apple-service
+    weight: null

@@ -1,3 +1,3 @@
 #Creating a pod and executing commands inside a pod 
 
-oc apply -f 
+oc apply -f https://raw.githubusercontent.com/bero2910/ocplab_1/main/testcurl.yml 

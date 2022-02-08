@@ -19,4 +19,4 @@ spec:
       name: nginx-config
   - name: htpasswd-volume
     secret:
-      secretName: nginx-htpasswd
+      secretName: nginx-secret
